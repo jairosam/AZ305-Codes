@@ -10,7 +10,7 @@ namespace sqlapp.Services
         private static string db_source = "server-monitoring.database.windows.net";
         private static string db_user = "portalroot";
         private static string db_password = "Jairosam0320";
-        private static string db_database = "appdb";
+        private static string db_database = "db-monitoring";
 
         private SqlConnection GetConnection()
         {
