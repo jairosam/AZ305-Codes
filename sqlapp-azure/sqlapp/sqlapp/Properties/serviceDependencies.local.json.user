@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2024-06-15T17:20:25.4481432Z"
+    },
+    "appInsights1": {
+      "restored": true,
+      "restoreTime": "2024-06-15T17:20:40.4072496Z"
+    }
+  },
+  "parameters": {
+    "appInsights1.resourceGroupName": {
+      "Name": "appInsights1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "RG-Monitoring-Logging"
+    },
+    "appInsights1.subscriptionId": {
+      "Name": "appInsights1.subscriptionId",
+      "Type": "subscription",
+      "Value": "3b100e99-4c4e-4ae2-aef5-a7d4a50e9e6c"
+    }
+  }
+}

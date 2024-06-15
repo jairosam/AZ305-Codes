@@ -4,9 +4,12 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/3b100e99-4c4e-4ae2-aef5-a7d4a50e9e6c/resourceGroups/RG-Monitoring-Logging/providers/microsoft.insights/components/insightstest</ApplicationInsightsResourceId>
+    <UserSecretsId>1b10ecef-6f42-4d48-bc13-923f0e479111</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
 
