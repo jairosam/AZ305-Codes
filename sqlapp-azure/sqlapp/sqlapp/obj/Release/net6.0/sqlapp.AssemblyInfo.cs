@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("1b10ecef-6f42-4d48-bc13-923f0e479111")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("sqlapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb9455885cd45b16ca32601506960a8d988619ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9051302afc7f61d26dca39dc7c34fdafaca92d4f")]
 [assembly: System.Reflection.AssemblyProductAttribute("sqlapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sqlapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="Default Web Site" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="appservicejairo2024" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\jairo\\OneDrive\\Documentos\\jairo\\Az305\\Codes\\AZ305-Codes\\sqlapp-azure\\sqlapp\\sqlapp\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>
