@@ -780,11 +780,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jairo\\OneDrive\\Documentos\\jairo\\Az305\\Codes\\AZ305-Codes\\blobapp\\blobapp\\blobapp.csproj",
+      "projectUniqueName": "C:\\Users\\jairo\\OneDrive\\Documentos\\jairo\\Az305\\Codes\\AZ305-Codes\\blobapp-appregistration\\blobapp\\blobapp.csproj",
       "projectName": "blobapp",
-      "projectPath": "C:\\Users\\jairo\\OneDrive\\Documentos\\jairo\\Az305\\Codes\\AZ305-Codes\\blobapp\\blobapp\\blobapp.csproj",
+      "projectPath": "C:\\Users\\jairo\\OneDrive\\Documentos\\jairo\\Az305\\Codes\\AZ305-Codes\\blobapp-appregistration\\blobapp\\blobapp.csproj",
       "packagesPath": "C:\\Users\\jairo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jairo\\OneDrive\\Documentos\\jairo\\Az305\\Codes\\AZ305-Codes\\blobapp\\blobapp\\obj\\",
+      "outputPath": "C:\\Users\\jairo\\OneDrive\\Documentos\\jairo\\Az305\\Codes\\AZ305-Codes\\blobapp-appregistration\\blobapp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jairo\\AppData\\Roaming\\NuGet\\NuGet.Config",

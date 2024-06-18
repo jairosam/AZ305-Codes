@@ -5,9 +5,9 @@ string blob_url = "https://appstore48652.blob.core.windows.net/scripts/commands.
 string local_blob = "C:\\Users\\jairo\\Downloads\\commands.sql";
 
 
-string tenantid = "52c21aa6-3175-45c3-9c57-b01f6fb8a971";
-string clientid = "19e4bd18-2a0c-4411-9bf8-1f38bc2eec97";
-string clientsecret = "N5B8Q~jFmwUYU5gh.RUphmRMmqZje.Xw6BMANcGa";
+string tenantid = "";
+string clientid = "";
+string clientsecret = "";
 
 ClientSecretCredential _client_credential = new ClientSecretCredential(tenantid, clientid, clientsecret);
 
