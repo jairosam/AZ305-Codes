@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("blobapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bd541d09002cab08e22743cc51d9a99fdf06d22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a534f5d1f40b82b765fe93b41a34cc14fdd5c8fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("blobapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("blobapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
