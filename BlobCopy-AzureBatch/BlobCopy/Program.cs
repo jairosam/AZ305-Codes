@@ -3,12 +3,12 @@ using Azure.Storage.Blobs.Models;
 using System.Data;
 using System.Data.SqlClient;
 
-string conenctionString = "DefaultEndpointsProtocol=https;AccountName=appstore443443;AccountKey=b4r4Y5SrQQhj8FEQXlpqCjmZe6vSyedcryw7vLVYuaqW/H/FjXUwED3d0fJVOfWkRfDcTS2QDg4q+AStaFK1XA==;EndpointSuffix=core.windows.net";
+string conenctionString = "DefaultEndpointsProtocol=https;AccountName=accountstorage48652;AccountKey=L/MTsGdd4Tt1xQzvfNtnTUZog5hdRG/L6ve8zmgkMZsbwbibJU+NZ/6TGZg4BgDxaOWHJj+gDf4R+AStPNNi0g==;EndpointSuffix=core.windows.net";
 string containerName = "scripts";
 int Id = 1;
 
 BlobContainerClient blobContainerClient = new BlobContainerClient(conenctionString, containerName);
-SqlConnection _connection = new SqlConnection("Server=tcp:appserver4434334.database.windows.net,1433;Initial Catalog=appdb;Persist Security Info=False;User ID=sqladmin;Password=;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30");
+SqlConnection _connection = new SqlConnection("Server=tcp:server15976.database.windows.net,1433;Initial Catalog=appdb;Persist Security Info=False;User ID=jairo;Password=User1Pass@*#*;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
 
 SqlParameter paramblobname = new SqlParameter();
 paramblobname.ParameterName = "@blobname";

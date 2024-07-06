@@ -1,0 +1,36 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Information in the Activity Log</h1>    
+    <table class="table table-bordered">
+  <thead>
+    <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Operation name</th>
+                <th scope="col">Status</th>
+                <th scope="col">Event category</th>
+                <th scope="col">Resource type</th>
+                <th scope="col">Resource</th>
+    </tr>
+  </thead>
+   <tbody>
+    
+        @foreach(var activity in Model.Activities)
+                {
+                    <tr>
+                    <th scope="row">@activity.Id</th>
+                    <th scope="row">@activity.Operationname</th>
+                    <td scope="row">@activity.Status</td>
+                    <td scope="row">@activity.Eventcategory</td>
+                    <td scope="row">@activity.Resourcetype</td>
+                    <td scope="row">@activity.Resource</td>
+                    </tr>
+                }                
+    
+    </tbody>
+  </table>
+</div>
